@@ -28,7 +28,7 @@ body{
 .header-links{
     display: flex;
     gap: 20px; /* space between each list */
-    flex-direction: row;
+    flex-direction: row; /* default is row but i want to remember how flex-direction works */
     list-style-type: none;
     margin-right: 135px;
     padding: 10px;
@@ -83,3 +83,33 @@ body{
     width: 100px
 }
 
+/* Body part 2 */
+.random {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.subtext{
+    display: flex;
+    margin-right: 270px; /* Change this two lines to make it change base on screensize and not only for my specific screensize */
+    margin-left: 300px;
+}
+
+.images{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.placeholder{
+    margin: auto;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    width: 167px;
+    height: 160px;
+}
